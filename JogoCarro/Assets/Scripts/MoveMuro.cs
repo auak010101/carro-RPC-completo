@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 // A classe CanoMuro controla o comportamento de um objeto (como um cano) em um jogo.
-public class CanoMuro : MonoBehaviour
+public class MoverMuros : MonoBehaviour
 {
     // Variável privada "speed" que define a velocidade do movimento do objeto (pode ser ajustada no Inspector do Unity).
     [SerializeField] private float speed = 10f;
